@@ -5,15 +5,9 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 public class App extends Application {
-    private static TextField tfId;
-    private static TextField tfName;
-    private static TextField tfAge;
 
     @Override
     public void start(Stage mainStage) throws Exception {
-        tfId = new TextField();
-        tfName = new TextField();
-        tfAge = new TextField();
         mainStage.show();
     }
 
